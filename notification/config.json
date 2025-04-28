@@ -1,6 +1,6 @@
 {
   "base": {
-    "logo": "media/icons/qa_guru_logo.png",
+    "logo": "media/icons/usetech-logo.jpg",
     "project": "${JOB_NAME}",
     "environment": "${ENVIRONMENT}",
     "comment": "${COMMENT}",
