@@ -1,5 +1,5 @@
 <p align="center">
-<img width="6%" title="UseTech" src="media/report_media/usetech-logo.jpg">
+<img width="6%" title="UseTech" src="media/report_media/usetech-logo.jpg" href="https://usetech.ru/">
 </p>
 
 # Проект по автоматизации тестовых сценариев для сайта компании [Usetech](https://usetech.ru/)
