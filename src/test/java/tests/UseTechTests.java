@@ -3,10 +3,7 @@ package tests;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import pages.AwardsPage;
-import pages.ContactsPage;
-import pages.MainPage;
-import pages.NewsPage;
+import pages.*;
 
 @Tag("UsetechDemoTests")
 public class UseTechTests extends TestBase {
@@ -15,10 +12,11 @@ public class UseTechTests extends TestBase {
     ContactsPage contactsPage = new ContactsPage();
     NewsPage newsPage = new NewsPage();
     AwardsPage awardsPage = new AwardsPage();
+    IndustryPage industryPage = new IndustryPage();
 
     @Test
     @DisplayName("Открываем главную страницу и проверяем заголовки")
-    void openMainPageAndCheckHeader() {
+    void openMainPageAndCheckHeaderTest() {
         mainPage
                 .openPage()
                 .checkHeaderVisible();
@@ -26,7 +24,7 @@ public class UseTechTests extends TestBase {
 
     @Test
     @DisplayName("Проверяем переход в раздел Контакты")
-    void navigateToContactsPage() {
+    void navigateToContactsPageTest() {
         mainPage
                 .openPage()
                 .clickContactsButton();
@@ -36,7 +34,7 @@ public class UseTechTests extends TestBase {
 
     @Test
     @DisplayName("Проверяем переход в раздел Новости")
-    void navigateToNewsPage() {
+    void navigateToNewsPageTest() {
         mainPage
                 .openPage()
                 .clickNewsButton();
@@ -46,11 +44,21 @@ public class UseTechTests extends TestBase {
 
     @Test
     @DisplayName("Проверяем переход в раздел Награды")
-    void navigateToAwardsPage() {
+    void navigateToAwardsPageTest() {
         mainPage
                 .openPage()
                 .clickAwardsButton();
 
-        awardsPage.checkNewsTitle();
+        awardsPage.checkAwardsTitle();
+    }
+
+    @Test
+    @DisplayName("Проверяем переход в раздел Отрасли")
+    void navigateToIndustryPageTest() {
+        mainPage
+                .openPage()
+                .clickIdustryButton();
+
+        industryPage.checkIndustryTitle();
     }
 }

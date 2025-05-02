@@ -2,7 +2,7 @@
 <img width="6%" title="UseTech" src="media/report_media/usetech-logo.jpg">
 </p>
 
-# Проект по автоматизации тестовых сценариев для сайта компании UseTech
+# Проект по автоматизации тестовых сценариев для сайта компании [Usetech](https://usetech.ru/)
 
 ## 📜 Содержание
 
@@ -18,18 +18,10 @@
 
 ## :computer: Используемый стек
 
-<p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/icons/intellij-idea-svgrepo-com.svg">
-<img width="6%" title="Java" src="media/icons/java-svgrepo-com.svg">
-<img width="6%" title="Selenide" src="media/icons/Selenide.svg">
-<img width="6%" title="Selenoid" src="media/icons/Selenoid.svg">
-<img width="6%" title="Allure Report" src="media/icons/Allure.svg">
-<img width="6%" title="Gradle" src="media/icons/gradle-svgrepo-com.svg">
-<img width="6%" title="JUnit5" src="media/icons/Junit5.svg">
-<img width="6%" title="GitHub" src="media/icons/github-badge-svgrepo-com.svg">
-<img width="6%" title="Jenkins" src="media/icons/Jenkins.svg">
-<img width="6%" title="Telegram" src="media/icons/Telegram.svg">
-</p>
+|         Java                                                                                                      | IntelliJ  <br>  Idea                                                                                               | GitHub                                                                                                     | JUnit 5                                                                                                           | Gradle                                                                                                     | Selenide                                                                                                         | Selenoid                                                                                                                  | Allure <br> Report                                                                                                         |  Jenkins                                                                                                        |   Telegram
+|:----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| <a href="https://www.java.com/"><img src="images/java-svgrepo-com.svg" width="50" height="50"  alt="Java"/></a>  | <a href="https://www.jetbrains.com/idea/"><img src="images/intellij-idea-svgrepo-com.svg" width="50" height="50"  alt="IDEA"/></a> | <a href="https://github.com/"><img src="images/github-badge-svgrepo-com.svg" width="50" height="50"  alt="Github"/></a> | <a href="https://junit.org/junit5/"><img src="images/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a> | <a href="https://gradle.org/"><img src="images/gradle-svgrepo-com.svg" width="50" height="50"  alt="Gradle"/></a> | <a href="https://selenide.org/"><img src="images/Selenide.svg" width="50" height="50"  alt="Selenide"/></a> | <a href="https://aerokube.com/selenoid/"><img src="images/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a> | <a href="https://github.com/allure-framework"><img src="images/Allure.svg" width="50" height="50"  alt="Allure"/></a> |<a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a> | <a href="https://web.telegram.org/"><img src="images/Telegram.svg" width="50" height="50" alt="Telegram"/></a> |<a href="https://qameta.io/"><img src="images\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO"/></a> |
+
 
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для
 тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в
@@ -52,6 +44,7 @@
 * Проверка перехода с главной страницы на страницу "Награды"
 * Проверка перехода с главной страницы на страницу "Контакты"
 * Проверка перехода с главной страницы на страницу "Новости"
+* Проверка перехода с главной страницы на страницу "Отрасли"
 
 ## ▶️ Запуск автотестов
 
@@ -63,16 +56,16 @@ gradle clean UsetechDemoTests -Dselenoid_url="selenoid.autotests.cloud/wd/hub" -
 
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
 
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/icons/Jenkins.svg"> Сборка в Jenkins
+## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/icons/Jenkins.svg"> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/C34-khabarov_ilya-UseTech/)
 
 Для запуска сборки необходимо перейти в раздел <code>Buld with parameters</code>, выбрать нужные параметры запуска
 автотестов и нажать кнопку <code>Build</code>.
 <p align="center">
 <img title="Jenkins Build" src="media/report_media/allure_report_example.png">
 </p>
-После выполнения сборки, в блоке <code>Builds</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
+После выполнения сборки, в блоке <code>Builds</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клике на которые откроется страница со сформированным html-отчетом и тестовой документацией соответственно.
 
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/icons/Allure.svg"> Пример Allure-отчета
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/icons/Allure.svg"> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/C34-khabarov_ilya-UseTech/allure/)
 
 ### Overview
 
