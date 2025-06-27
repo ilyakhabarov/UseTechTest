@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.*;
 
-@Tag("UsetechDemoTests")
+@Tag("WebUITests")
 public class UseTechTests extends TestBase {
 
     MainPage mainPage = new MainPage();
@@ -13,6 +13,8 @@ public class UseTechTests extends TestBase {
     NewsPage newsPage = new NewsPage();
     AwardsPage awardsPage = new AwardsPage();
     IndustryPage industryPage = new IndustryPage();
+    ServicesPage servicesPage = new ServicesPage();
+    CareerPage careerPage = new CareerPage();
 
     @Test
     @DisplayName("Открываем главную страницу и проверяем заголовки")
@@ -60,5 +62,25 @@ public class UseTechTests extends TestBase {
                 .clickIdustryButton();
 
         industryPage.checkIndustryTitle();
+    }
+
+    @Test
+    @DisplayName("Проверяем переход в раздел Услуги")
+    void navigateToServicesPageTest() {
+        mainPage
+                .openPage()
+                .clickServicesButton();
+
+        servicesPage.checkServicesTitle();
+    }
+
+    @Test
+    @DisplayName("Проверяем переход в раздел Карьера")
+    void navigateToCareerPageTest() {
+        mainPage
+                .openPage()
+                .clickCareerButton();
+
+        careerPage.checkCareerTitle();
     }
 }

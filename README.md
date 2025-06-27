@@ -46,7 +46,7 @@
 * Проверка перехода с главной страницы на страницу "Новости"
 * Проверка перехода с главной страницы на страницу "Отрасли"
 
-## ▶️ Запуск автотестов
+## 🔽 Запуск автотестов
 
 ### Запуск тестов из терминала
 
@@ -67,13 +67,11 @@ gradle clean UsetechDemoTests -Dselenoid_url="selenoid.autotests.cloud/wd/hub" -
 
 ## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/icons/Allure.svg"> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/C34-khabarov_ilya-UseTech/2/allure)
 
-### Overview
-
 <p align="center">
 <img title="Allure Overview" src="media/report_media/allure_tests_result_example.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Уведомления в Telegram с использованием бота
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет
 сообщение с отчетом о прогоне тестов.
@@ -82,7 +80,7 @@ gradle clean UsetechDemoTests -Dselenoid_url="selenoid.autotests.cloud/wd/hub" -
 <img width="70%" title="Telegram Notifications" src="media/report_media/telegram_report.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.svg"> Видео примера запуска тестов в Selenoid
+## <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.svg"> Видео примера запуска тестов в Selenoid
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
 <p align="center">

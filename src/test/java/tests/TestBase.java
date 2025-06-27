@@ -14,7 +14,7 @@ public class TestBase {
     @BeforeAll
     static void beforeAll() {
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "135.0");
+        Configuration.browserVersion = System.getProperty("browserVersion", "138.0");
         Configuration.browserSize = System.getProperty("browserSize", "1280x720");
         Configuration.baseUrl = "https://usetech.ru/";
         Configuration.pageLoadStrategy = "eager";
@@ -39,6 +39,5 @@ public class TestBase {
         Attach.pageSource();
         Attach.browserConsoleLogs();
         Attach.addVideo();
-
     }
 }

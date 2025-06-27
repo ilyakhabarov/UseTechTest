@@ -11,16 +11,18 @@ repositories {
 }
 
 def allureVersion = "2.28.0";
-def selenideVersion = "7.8.0"
+def selenideVersion = "7.8.0";
+def slf4jVersion = "2.0.17";
+def junitVersion = "5.12.0"
 
 dependencies {
     testImplementation(
             "com.codeborne:selenide:$selenideVersion",
-            "org.junit.jupiter:junit-jupiter:5.12.0",
-            "org.slf4j:slf4j-simple:2.0.17",
+            "org.junit.jupiter:junit-jupiter:$junitVersion",
+            "org.slf4j:slf4j-simple:$slf4jVersion",
             "io.qameta.allure:allure-selenide:$allureVersion"
     )
-    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.12.0')
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
 
 }
 
@@ -54,8 +56,8 @@ tasks.withType(Test) {
     }
 }
 
-task UsetechDemoTests(type: Test) {
+task WebUITests(type: Test) {
     useJUnitPlatform {
-        includeTags("UsetechDemoTests")
+        includeTags("WebUITests")
     }
 }
