@@ -17,17 +17,17 @@
 - 
 ## :computer: Используемый стек
 <p align="center">
-<img width="7%" title="IntelliJ IDEA" src="media/icons/intellij-idea-svgrepo-com.svg">
-<img width="7%" title="Java" src="media/icons/java-svgrepo-com.svg">
-<img width="7%" title="Selenide" src="media/icons/Selenide.svg">
-<img width="7%" title="Selenoid" src="media/icons/Selenoid.svg">
-<img width="7%" title="Allure Report" src="media/icons/Allure.svg">
-<img width="7%" title="Allure TestOps" src="media/icons/Allure_TestOps.svg">
-<img width="7%" title="Gradle" src="media/icons/gradle-svgrepo-com.svg">
-<img width="7%" title="JUnit5" src="media/icons/Junit5.svg">
-<img width="7%" title="GitHub" src="media/icons/github-badge-svgrepo-com.svg">
-<img width="7%" title="Jenkins" src="media/icons/Jenkins.svg">
-<img width="7%" title="Telegram" src="media/icons/Telegram.svg">
+  <a href="https://www.jetbrains.com/idea/"><img width="7%" title="IntelliJ IDEA" src="media/icons/intellij-idea-svgrepo-com.svg"></a>
+  <a href="https://www.java.com/"><img width="7%" title="Java" src="media/icons/java-svgrepo-com.svg"></a>
+  <a href="https://selenide.org/"><img width="7%" title="Selenide" src="media/icons/Selenide.svg"></a>
+  <a href="https://aerokube.com/selenoid/"><img width="7%" title="Selenoid" src="media/icons/Selenoid.svg"></a>
+  <a href="https://docs.qameta.io/allure/"><img width="7%" title="Allure Report" src="media/icons/Allure.svg"></a>
+  <a href="https://docs.qameta.io/allure-testops/"><img width="7%" title="Allure TestOps" src="media/icons/Allure_TestOps.svg"></a>
+  <a href="https://gradle.org/"><img width="7%" title="Gradle" src="media/icons/gradle-svgrepo-com.svg"></a>
+  <a href="https://junit.org/junit5/"><img width="7%" title="JUnit5" src="media/icons/Junit5.svg"></a>
+  <a href="https://github.com/"><img width="7%" title="GitHub" src="media/icons/github-badge-svgrepo-com.svg"></a>
+  <a href="https://www.jenkins.io/"><img width="7%" title="Jenkins" src="media/icons/Jenkins.svg"></a>
+  <a href="https://telegram.org/"><img width="7%" title="Telegram" src="media/icons/Telegram.svg"></a>
 </p>
 
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для
