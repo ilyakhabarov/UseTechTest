@@ -14,7 +14,7 @@
 - [Пример Allure-отчета](#-пример-allure-отчета)
 - [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
 - [Видео примера запуска тестов в Selenoid](#-видео-примера-запуска-тестов-в-selenoid)
-- 
+
 ## :computer: Используемый стек
 <p align="center">
   <a href="https://www.jetbrains.com/idea/"><img width="7%" title="IntelliJ IDEA" src="media/icons/intellij-idea-svgrepo-com.svg"></a>
